@@ -1,0 +1,103 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB Deutsch Primar - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Aufgabe"
+        }
+      ],
+      "entries": [
+        {
+          "id": "u2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Bearbeiter*in"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "w8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Testdomäne"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "w3id.org/iqb/v12/s1/",
+            "allowMultipleValues": false,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "e2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgaben-/Stimuluszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "e3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "k8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textsorte"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "xxxx",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "k9",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Wortanzahl"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        }
+      ]
+    }
+  ]
+}

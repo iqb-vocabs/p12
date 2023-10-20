@@ -1,0 +1,15 @@
+{
+  "id": "dep",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Metadatenprofile für Testaufgaben: Deutsch Primar"
+    }
+  ],
+  "mdOutDir": "docs",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "profiles": [
+    "unit.json",
+    "item.json"
+  ]
+}
