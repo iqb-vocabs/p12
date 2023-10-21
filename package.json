@@ -1,6 +1,6 @@
 {
   "name": "p12",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC4.0 BY-SA",
   "description": "Metadatenprofile Deutsch Primar",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/p12#readme",
   "dependencies": {
-    "@iqb/validate-md-profile": "^0.3.0"
+    "@iqb/validate-md-profile": "^0.4.0"
   }
 }
