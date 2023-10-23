@@ -111,7 +111,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "w3id.org/iqb/v26/ea/",
+            "url": "https://w3id.org/iqb/v26/ea/",
             "allowMultipleValues": false
           }
         }
