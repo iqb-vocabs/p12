@@ -23,7 +23,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "xxx",
+            "url": "w3id.org/iqb/v27/it/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -38,7 +38,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "xxxx",
+            "url": "w3id.org/iqb/v27/dp/",
             "allowMultipleValues": false,
             "hideNumbering": true
           }
@@ -111,7 +111,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "xxxx",
+            "url": "w3id.org/iqb/v26/ea/",
             "allowMultipleValues": false
           }
         }
