@@ -36,7 +36,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "w3id.org/iqb/v12/s1/",
+            "url": "https://w3id.org/iqb/v12/s1/",
             "allowMultipleValues": false,
             "maxLevel": 1
           }
