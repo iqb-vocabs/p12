@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json
 | Testdomäne | [Vokabular](https://w3id.org/iqb/v12/s1/) | url: 'https://w3id.org/iqb/v12/s1/', Einmalauswahl, Zeige nur erste Ebene | w8 |
 | Aufgaben-/Stimuluszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | e2 |
 | Quellenangaben | Text |Mehrzeilig, Sprache(n): de | e3 |
-| Textsorte | [Vokabular](xxxx) | url: 'xxxx', Einmalauswahl | k8 |
+| Textsorte | [Vokabular](https://w3id.org/iqb/v28/ts/) | url: 'https://w3id.org/iqb/v28/ts/', Einmalauswahl | k8 |
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | k9 |
 ## Profil "IQB Deutsch Primar - Item"
 ```

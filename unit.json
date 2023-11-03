@@ -79,7 +79,7 @@
           ],
           "type": "vocabulary",
           "parameters": {
-            "url": "xxxx",
+            "url": "https://w3id.org/iqb/v28/ts/",
             "allowMultipleValues": false
           }
         },
