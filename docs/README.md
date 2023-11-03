@@ -12,21 +12,25 @@ Autor/Organisation: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json
 ```
 
-* Bearbeiter*in (u2, text)
-* Testdomäne (w8, vocabulary)
-* Aufgaben-/Stimuluszeit (e2, number)
-* Quellenangaben (e3, text)
-* Textsorte (k8, vocabulary)
-* Wortanzahl (k9, number)
-## Profil "Item"
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Bearbeiter*in | Text |Einzeilig, Sprache(n): de | u2 |
+| Testdomäne | [Vokabular](https://w3id.org/iqb/v12/s1/) | url: 'https://w3id.org/iqb/v12/s1/', Einmalauswahl, Zeige nur erste Ebene | w8 |
+| Aufgaben-/Stimuluszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | e2 |
+| Quellenangaben | Text |Mehrzeilig, Sprache(n): de | e3 |
+| Textsorte | [Vokabular](xxxx) | url: 'xxxx', Einmalauswahl | k8 |
+| Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | k9 |
+## Profil "IQB Deutsch Primar - Item"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p12/master/item.json
 ```
 
-* Itemtyp 3er (s2, vocabulary)
-* Itemformat (s3, vocabulary)
-* Anforderungsbereich (s4, vocabulary)
-* Bildungsstandards primär (s5, vocabulary)
-* Bildungsstandards sekundär (s6, vocabulary)
-* Itemzeit (e2, number)
-* Schwierigkeit ex ante (e4, vocabulary)
+| Name/Label | Typ | Parameter | ID Profil-Eintrag |
+| :--- | :---: | :--- | :---: |
+| Itemtyp 3er | [Vokabular](https://w3id.org/iqb/v27/it/) | url: 'https://w3id.org/iqb/v27/it/', Einmalauswahl, verberge Nummerierung | s2 |
+| Itemformat | [Vokabular](https://w3id.org/iqb/v27/dp/) | url: 'https://w3id.org/iqb/v27/dp/', Einmalauswahl, verberge Nummerierung | s3 |
+| Anforderungsbereich | [Vokabular](https://w3id.org/iqb/v12/a1/) | url: 'https://w3id.org/iqb/v12/a1/', Einmalauswahl, verberge Nummerierung | s4 |
+| Bildungsstandards primär | [Vokabular](https://w3id.org/iqb/v12/s1/) | url: 'https://w3id.org/iqb/v12/s1/', Einmalauswahl | s5 |
+| Bildungsstandards sekundär | [Vokabular](https://w3id.org/iqb/v12/s1/) | url: 'https://w3id.org/iqb/v12/s1/', Mehrfachauswahl | s6 |
+| Itemzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | e2 |
+| Schwierigkeit ex ante | [Vokabular](https://w3id.org/iqb/v26/ea/) | url: 'https://w3id.org/iqb/v26/ea/', Einmalauswahl | e4 |
