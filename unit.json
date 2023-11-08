@@ -14,7 +14,7 @@
       ],
       "entries": [
         {
-          "id": "u2",
+          "id": "iqb_author",
           "label": [
             {
               "lang": "de",
@@ -42,7 +42,7 @@
           }
         },
         {
-          "id": "e2",
+          "id": "iqb_time_unit",
           "label": [
             {
               "lang": "de",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "id": "e3",
+          "id": "iqb_copyright",
           "label": [
             {
               "lang": "de",
@@ -84,7 +84,7 @@
           }
         },
         {
-          "id": "k9",
+          "id": "iqb_word_count",
           "label": [
             {
               "lang": "de",
