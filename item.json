@@ -14,21 +14,6 @@
       ],
       "entries": [
         {
-          "id": "s2",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Itemtyp 3er"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v27/it/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
           "id": "s3",
           "label": [
             {
@@ -106,7 +91,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Schwierigkeit ex ante"
+              "value": "Geschätzte Schwierigkeit"
             }
           ],
           "type": "vocabulary",
