@@ -21,6 +21,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.json
 | Textsorte | [Vokabular](https://w3id.org/iqb/v28/ts/) | url: 'https://w3id.org/iqb/v28/ts/', Einmalauswahl | k8 |
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Stimuluszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
+| Hörsequenz Transcript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 ## Profil "IQB Deutsch Primar - Item"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p12/master/item.json

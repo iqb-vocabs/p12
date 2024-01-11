@@ -111,6 +111,19 @@
             "digits": 0,
             "isPeriodSeconds": true
           }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Hörsequenz Transcript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
         }
       ]
     }
