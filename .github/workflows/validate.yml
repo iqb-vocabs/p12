@@ -27,10 +27,11 @@ jobs:
         with:
           name: docs
           path: docs
+          retention-days: 1
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: artifact
+          artifact_name: docs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
