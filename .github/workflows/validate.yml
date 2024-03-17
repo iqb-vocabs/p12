@@ -1,0 +1,26 @@
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - master
+    pull_request:
+      branches:
+        - master
+
+name: Validate and publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm ci
+      - run: npm run validate
