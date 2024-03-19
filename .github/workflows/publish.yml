@@ -30,14 +30,10 @@ jobs:
           path: docs
           retention-days: 1
           overwrite: true
-      - name: rename docs/README.md to index.qmd
-        task: CmdLine@2
-        inputs: rename docs/README.md docs/index.qmd
-      - name: copy docs/index.qmd to root
-        task: CopyFiles@2
-        inputs:
-          SourceFolder: docs
-          TargetFolder: 
+      - uses: actions/checkout@v2
+      - name: Rename file 
+        run: mv docs/README.md index.qmd    
+
       - name : Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Deploy to GitHub Pages
