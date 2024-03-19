@@ -1,0 +1,21 @@
+project: 
+  type: website
+
+website:
+  site-url: https://iqb-vocabs.github.io/p12/
+  title: "IQB"
+  favicon: favicon.ico
+  page-navigation: true
+  repo-url: https://github.com/iqb-vocabs/p12/
+  navbar: 
+    logo: IQB-Klein.png
+    search: true
+    left:
+        - href: index.qmd
+     
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

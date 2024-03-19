@@ -29,10 +29,13 @@ jobs:
           name: docs
           path: docs
           retention-days: 1
+          overwrite: true
+
+      - name : Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          artifact_name: docs
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
