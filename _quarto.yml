@@ -11,9 +11,8 @@ website:
     logo: IQB-Klein.png
     search: true
     left:
-        - href: index.qmd
+        - href: docs/README.md
      
-
 format:
   html:
     theme: cosmo
