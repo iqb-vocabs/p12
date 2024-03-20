@@ -1,16 +1,16 @@
 on:
-    workflow_dispatch:
-    push:
-      branches:
-        - master
-    pull_request:
-      branches:
-        - master
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
-name: Validate and publish
+name: Prepare und Publish
 
 jobs:
-  build-deploy:
+  deploy-build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,11 +18,14 @@ jobs:
       pages: write
     steps:
       - uses: actions/checkout@v4
+    
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm run validate
+      - run: |
+          npm ci
+          npm run validate
+
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -30,15 +33,17 @@ jobs:
           path: docs
           retention-days: 1
           overwrite: true
-      - uses: actions/checkout@v2
-      - name: Rename file 
-        run: mv docs/README.md index.qmd    
+      - name: Rename
+        run: mv docs/README.md index.qmd
 
       - name : Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
       - name: Deploy to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+        
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  

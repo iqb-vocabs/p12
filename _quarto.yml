@@ -11,7 +11,7 @@ website:
     logo: IQB-Klein.png
     search: true
     left:
-        - href: docs/README.md
+        - href: index.qmd
      
 format:
   html:
