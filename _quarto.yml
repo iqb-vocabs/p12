@@ -1,4 +1,4 @@
-project: 
+project:
   type: website
 
 website:
@@ -7,12 +7,13 @@ website:
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p12/
-  navbar: 
-    logo: IQB-Klein.png
+  navbar:
+    logo: IQB-klein.png
     search: true
     left:
         - href: index.qmd
-     
+          text: "Metadatenprofile für Testaufgaben: Mathematik Primar"
+
 format:
   html:
     theme: cosmo
