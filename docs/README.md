@@ -23,6 +23,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p12/master/unit.jso
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Stimuluszeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
 | Hörsequenz Transkript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
+| Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
 
 ## Profil "IQB Deutsch Primar - Item"
 
