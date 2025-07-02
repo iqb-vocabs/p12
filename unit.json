@@ -27,6 +27,21 @@
           }
         },
         {
+          "id": "f0",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Klassenstufe"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
           "id": "a1",
           "label": [
             {
